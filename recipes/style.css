@@ -1,0 +1,50 @@
+.ropa{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ropa.title{
+    color: red;
+}
+
+.ropa.ingredients{
+     color:blue;
+}
+
+.ropa.directions{
+    color: red;
+}
+
+.lemonade{
+    background-color: lemonchiffon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lemonade.title{
+    color: limegreen;
+}
+
+.lemonade.ingredients{
+     color:lightcoral;
+}
+
+.lemonade.directions{
+    color: skyblue;
+}
+
+.chicken{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chicken.title{
+    color: darkgreen;
+}
+
+.chicken.ingredients{
+     color: darkred;
+}
+
+.chicken.directions{
+    color: darkgreen;
+}

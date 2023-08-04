@@ -1,0 +1,23 @@
+body{
+    background-color: peachpuff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: navy
+}
+.recipe.button{
+    font-size: 30px;
+}
+
+#ropa{
+    color: white;
+    background-color: blue;
+}
+
+#lemonade{
+    color: yellow;
+    background-color: limegreen;
+}
+
+#chicken{
+    color: white;
+    background-color: darkgreen;
+}
