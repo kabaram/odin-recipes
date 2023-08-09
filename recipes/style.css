@@ -1,50 +1,78 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+
+    width: 40%;
+    vertical-align: top;
+    padding: 0px 10px 0px 0px;
+    display: inline-block;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+
 .ropa{
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.ropa.title{
-    color: red;
-}
-
-.ropa.ingredients{
-     color:blue;
-}
-
-.ropa.directions{
-    color: red;
+    background-color: navy;
 }
 
 .lemonade{
     background-color: lemonchiffon;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.lemonade.title{
-    color: limegreen;
-}
-
-.lemonade.ingredients{
-     color:lightcoral;
-}
-
-.lemonade.directions{
-    color: skyblue;
 }
 
 .chicken{
+    background-color: darkgreen;
+}
+
+
+.card{
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    margin: 20px auto;
+    border: 20px solid;
+    display: block;
 }
 
-.chicken.title{
-    color: darkgreen;
+.recipe-content{
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
 }
 
-.chicken.ingredients{
-     color: darkred;
+.ingredients{
+    display: inline-block;
+    border: 5px dotted;
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px;
+} 
+
+.directions{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
 }
 
-.chicken.directions{
-    color: darkgreen;
+.title{
+    background-color: white;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: center;
+    border: 20px solid;
+    width: 75%;
+    margin: 10px auto;
 }
+
+#chicken, #ropa{
+    border-color: darkred;
+}
+
+#lemonade{
+    border-color:darkseagreen;
+}
+

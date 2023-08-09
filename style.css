@@ -1,23 +1,46 @@
-body{
-    background-color: peachpuff;
+body {
+    background-color: linen;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: navy
-}
-.recipe.button{
-    font-size: 30px;
 }
 
-#ropa{
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 10px dotted palegoldenrod;
+    background-color: black;
     color: white;
-    background-color: blue;
+    width: 800px;
 }
 
-#lemonade{
-    color: yellow;
-    background-color: limegreen;
+.recipe.button {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 5px;
+    width: fit-content;
 }
 
-#chicken{
+.recipe.container {
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 12px;
+    width: 800px;
+}
+
+#ropa {
+    color: white;
+    background-color: navy;
+}
+
+#lemonade {
+    color: lemonchiffon;
+    background-color: darkseagreen;
+}
+
+#chicken {
     color: white;
     background-color: darkgreen;
 }
